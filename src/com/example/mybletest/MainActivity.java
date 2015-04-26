@@ -3,6 +3,7 @@ package com.example.mybletest;
 import java.util.List;
 import java.util.UUID;
 
+import android.R.string;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ import android.content.Intent;
 public class MainActivity extends ActionBarActivity {
 
 	private final static String TAG = MainActivity.class.getSimpleName();  
+	
+	private String str = "gitpushtest";
 	
 	public final static String ACTION_GATT_CONNECTED =
             "com.example.bluetooth.le.ACTION_GATT_CONNECTED";
