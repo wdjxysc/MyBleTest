@@ -23,6 +23,7 @@ public class MainActivity extends ActionBarActivity {
 	private final static String TAG = MainActivity.class.getSimpleName();  
 	
 	private String str = "gitpushtest";
+	private String strpc2 = "pc2gitpushtest";
 	
 	public final static String ACTION_GATT_CONNECTED =
             "com.example.bluetooth.le.ACTION_GATT_CONNECTED";
