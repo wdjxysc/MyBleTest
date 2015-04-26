@@ -24,7 +24,8 @@ public class MainActivity extends ActionBarActivity {
 	
 	private String str = "gitpushtest";
 	private String strpc2 = "pc2gitpushtest";
-	
+	private String strstr = "gitpushtest";
+	private String strstrpc2 = "pc2gitpushtest";
 	public final static String ACTION_GATT_CONNECTED =
             "com.example.bluetooth.le.ACTION_GATT_CONNECTED";
     public final static String ACTION_GATT_DISCONNECTED =
